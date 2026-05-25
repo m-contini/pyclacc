@@ -8,7 +8,7 @@ from core import logger
 
 from .const import SupportFiles
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 def load_approvers_tbl() -> pd.DataFrame:
     """

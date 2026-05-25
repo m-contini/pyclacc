@@ -18,7 +18,7 @@ from core import (
     logger
 )
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 exportclacc_args_list: list[WebCLACCParamsType] = [
     (2026, 'All', 'All'),

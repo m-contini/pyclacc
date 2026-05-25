@@ -16,7 +16,7 @@ from core import SessionExpired, OUTPUT_DIR, DFORCE1_URL, logger
 from .const import SupportFiles
 from .session import DFSession
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 class ReportDForce(DFSession):
     """

@@ -14,7 +14,7 @@ from .dforce import ReportDForce
 from .webclacc import ExportClacc
 from .webclacc.const import CLACC_CHECK_DIR
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 class Explorer:
     """

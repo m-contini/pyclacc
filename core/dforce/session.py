@@ -11,7 +11,8 @@ from core import ASSETS_DIR, logger
 from .const import SupportFiles, DFORCE1_URL
 from .dtypes import CookieType
 
-logging = logger
+logging = logger.getLogger(__name__)
+
 _cookie_lock = Lock()
 
 class DFSession:

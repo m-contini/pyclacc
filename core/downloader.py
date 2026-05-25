@@ -15,7 +15,7 @@ from core import OUTPUT_DIR, logger
 from .webclacc import ExportClacc, WebCLACCParamsType
 from .dforce import ReportDForce, DForceReportType
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 class Downloader:
     """

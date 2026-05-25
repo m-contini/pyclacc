@@ -16,7 +16,7 @@ from .const import CLACC_EXPOSED_COLS, SupportFiles, WebCLACCEndpoints
 from .dtypes import ApproverCheckStatusType, ClaccStatusType
 from core.exceptions import BadExtraction, NoCredentials
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 class DefaultParams:
     fiscal_year: int = CURRENT_FY

@@ -14,7 +14,7 @@ from .const import LEGAL_ENTITY, DFORCE1_URL
 from .dtypes import AccountType, RiskType, OpportunityType, DFSearchResults, SummaryType
 from .session import DFSession
 
-logging = logger
+logging = logger.getLogger(__name__)
 
 class Parser:
 
