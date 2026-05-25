@@ -1,0 +1,10 @@
+.env
+
+__pycache__/
+assets/selenium_profile/
+*.crt
+*.json
+*.txt
+*.csv
+
+*.log

@@ -1,0 +1,20 @@
+# Configurazione Generale
+CURRENT_FY: 2026
+LOGGING_FILE: "pyclacc.log"
+
+# Inserire il percorso del Desktop (es. "C:\\Users\\m-contini\\Desktop")
+DESKTOP_PATH: "C:\\Users\\REPLACE_ME\\Desktop"
+ENV_FILE: ".env"
+
+# Portali
+DFORCE1_URL: "https://***.my.salesforce.com/"
+WEBCLACC_URL: "https://***.it/"
+
+# Business Logic
+LEGAL_ENTITY: "D***A"
+AUDIT_BUSINESS_LEADER: "B***A"
+OLD_AUDIT_RISK_LEADERS: ["PI***CO", "DI***RO"]
+NEW_AUDIT_RISK_LEADERS: ["SP***IO", "CA***IO"]
+EQUIVALENT_LMU:
+    "ICS TO-GE": "ICS NORD OVEST"
+    "ICS MI-BS-BG": "LOMBARDIA/SARDEGNA"
