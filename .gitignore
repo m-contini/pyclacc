@@ -4,7 +4,10 @@ __pycache__/
 assets/selenium_profile/
 *.crt
 *.json
+
 *.txt
+!requirements.txt
+
 *.csv
 
 *.log
